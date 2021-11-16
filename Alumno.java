@@ -16,15 +16,9 @@ public class Alumno {
         nombre = nombreCompleto;
         numeroMatricula = numeroMatriculaAlumno;
         edad = edadAlumno;
-    }
-
-    public void imprimirErrorAlumno(){
         if (nombre.length() < 3){
             System.out.println("Error, longitud del nombre insuficiente");
         } 
-    }
-
-    public void imprimirErrorMatricula(){
         if (numeroMatricula.length() < 4){
             System.out.println("Error, longitud del numero de matricula insuficiente");
         } 
